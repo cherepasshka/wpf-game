@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="проект.MonsterElement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:проект"
+             mc:Ignorable="d" Height="111.573" Width="294.505" MinWidth="294.505" MinHeight="107.573">
+    <Grid x:Name="grid" Margin="0,0,-0.2,-0.4">
+        <Image x:Name="image" Margin="177,-1,0.6,-0.4" MaxWidth="124" MaxHeight="122"/>
+        <TextBlock x:Name="textBlockInfo" Margin="10,2,122.6,-0.4" TextWrapping="Wrap" Text="TextBlock" FontSize="9"/>
+
+    </Grid>
+</UserControl>

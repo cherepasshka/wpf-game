@@ -1,0 +1,18 @@
+﻿<UserControl x:Name="userControlHero" x:Class="проект.HeroElement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:проект"
+             mc:Ignorable="d" Height="159.573" Width="294.505" MaxWidth="294.505" MaxHeight="159.573" MinWidth="294.505" MinHeight="159.573">
+    <Grid x:Name="grid" Margin="0,0,-0.2,-0.4">
+        <Image x:Name="image" Margin="165,1,0.6,47.6" MaxWidth="124" MaxHeight="122"/>
+        <Button x:Name="buttonAttack1" Content="атака1" Margin="0,133,220.2,9.4" MaxWidth="85" MaxHeight="31" Click="buttonAttack1_Click" FontSize="8" MouseEnter="buttonAttack1_MouseEnter" MouseLeave="buttonAttack1_MouseLeave" Height="18"/>
+        <Button x:Name="buttonAttack2" Content="атака2" Margin="75,133,146.2,9.4" MaxWidth="85" MaxHeight="31" Click="buttonAttack2_Click" FontSize="8" MouseEnter="buttonAttack2_MouseEnter" MouseLeave="buttonAttack2_MouseLeave" Height="18"/>
+        <Button x:Name="buttonAttack3" Content="атака3" Margin="149,133,73.2,9.4" MaxWidth="85" MaxHeight="31" Click="buttonAttack3_Click" FontSize="8" MouseEnter="buttonAttack3_MouseEnter" MouseLeave="buttonAttack3_MouseLeave" Height="18"/>
+        <Button x:Name="buttonAttack4" Content="атака4" Margin="223,133,1.2,9.4" MaxWidth="85" MaxHeight="32" Click="buttonAttack4_Click" FontSize="8" MouseEnter="buttonAttack4_MouseEnter" MouseLeave="buttonAttack4_MouseLeave" Height="18"/>
+        <Button x:Name="buttonAttack5" Content="атака5" Margin="193,112,28.6,24.6" MaxWidth="85" MaxHeight="31" Click="buttonAttack5_Click" FontSize="8" MouseEnter="buttonAttack5_MouseEnter" MouseLeave="buttonAttack5_MouseLeave" Height="18"/>
+        <TextBlock x:Name="textBlockInfo" HorizontalAlignment="Left" Margin="7,0,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="8" Height="132" Width="153"/>
+
+    </Grid>
+</UserControl>
